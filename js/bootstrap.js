@@ -2361,3 +2361,7 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+// additional javascript
+
+$('.carousel').carousel();
