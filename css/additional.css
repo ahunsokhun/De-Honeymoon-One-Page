@@ -235,39 +235,35 @@ footer {
     padding: 100px 0;
 }
 
-/*-------------------------------*/
-/*    Carousel Fade Transition   */
-/*-------------------------------*/
+/* Full Slider */
 
-#fade-quote-carousel.carousel {
-  padding-bottom: 60px;
+html,
+body {
+    height: 100%;
 }
-#fade-quote-carousel.carousel .carousel-inner .item {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
+
+.carousel,
+.item,
+.active {
+    height: 100%;
 }
-#fade-quote-carousel.carousel .carousel-inner .active {
-  opacity: 1;
-  -webkit-transition-property: opacity;
-      -ms-transition-property: opacity;
-          transition-property: opacity;
+
+.carousel-inner {
+    height: 100%;
 }
-#fade-quote-carousel.carousel .carousel-indicators {
-  bottom: 10px;
-}
-#fade-quote-carousel.carousel .carousel-indicators > li {
-  background-color: #e84a64;
-  border: none;
-}
-    
- #fade-quote-carousel .image{
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) center center scroll;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
 }
