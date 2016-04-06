@@ -150,12 +150,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+   
 
 /* About */
 
@@ -189,39 +184,23 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* Packages */
+/* Portfolio */
 
-.headermessage {
-  margin: 19px;
-  color: black;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-}
-.image-block {
-    border: 3px solid white ;
-    background-color: black;
-    padding: 0px;    
-    margin: 0px;
-    height:200px;
-    text-align: center;
-    vertical-align: bottom;
-}
-.image-block > p {
-    width: 100%;
-    height: 100%;
-    font-weight: normal;
-    font-size: 19px;
-    padding-top: 150px;
-    background-color: rgba(3,3,3,0.0);
-    color: rgba(6,6,6,0.0);
-}
-.image-block:hover > p {
-    background-color: rgba(3,3,3,0.5);    
-    color: white;    
+.portfolio {
+    padding: 50px 0;
 }
 
+.portfolio-item {
+    margin-bottom: 30px;
+}
 
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
 
 
 /* Call to Action */
