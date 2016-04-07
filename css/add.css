@@ -148,7 +148,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: #ffffff;
 }
 .navbar-default {
-  background-color: #222222;
+  background-color: #DB7093;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -180,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #8B0000;
+  color: #BC8F8F;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -216,7 +216,7 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 3px;
   }
   .navbar-default.navbar-shrink {
-    background-color: #222222;
+    background-color: #DB7093;
     padding: 10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
