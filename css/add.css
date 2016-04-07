@@ -224,7 +224,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image:url('../image/hm13.jpg');
+  background-image:url('../image/hm14.jpg');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -256,15 +256,6 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
 }
 
-/*
-.quotes_container { 
-	width: 100%; 
-	height:300px;
-	margin: 0 auto;
-	background-color:#E9967A;
-	opacity:0.7;
-	padding:20px auto;
-*/
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
