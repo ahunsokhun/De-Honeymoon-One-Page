@@ -224,7 +224,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image:url('../image/hm13.jpg');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -233,7 +233,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: #E9967A;
 }
 header .intro-text {
   padding-top: 100px;
